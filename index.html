@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>In Class 2</title>
+  </head>
+  <body>
+    <div class="header">
+        <h1>Welcome to the Interactive ABCs of CSS Technology learning Website</h1>
+        <h2>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</h2>
+    </div>
+    <div class="container">
+        <div class="a-image">
+            <img src="./img/css-letter-a.png" alt="image a" class="image" id="aimage">
+            <button class="hide-button" onclick="hideImage('aimage')">Hide Image</button>
+            <button class="show-button" onclick="showImage('aimage')">A</button>
+        </div>
+        <div class="bimage">
+            <img src="./img/css-letter-b.png" alt="image b" class="image" id="bimage">
+            <button class="hide-button" onclick="hideImage('bimage')">Hide Image</button>
+            <button class="show-button" onclick="showImage('bimage')">B</button>
+        </div>
+        <div class="cimage">
+            <img src="./img/css-letter-c.png" alt="image c" class="image" id="image3">
+            <button class="hide-button" onclick="hideImage('image3')">Hide Image</button>
+            <button class="show-button" onclick="showImage('image3')">C</button>
+        </div>
+    </div>
+    <script src="/index.js" defer></script>
+  </body>
+</html>
